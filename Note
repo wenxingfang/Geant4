@@ -1,0 +1,9 @@
+GEANT4_USE_QT (DEFAULT : OFF)
+  apt-file search Qt5CoreConfig.cmake
+  sudo apt-get install qt5-default
+  link:https://askubuntu.com/questions/540746/ubuntu-14-04-qt5-development-libraries/540757#540757
+GEANT4_USE_RAYTRACER_X11 (DEFAULT : OFF, Unix only)
+  sudo apt-get install libx11-dev libxmu-dev
+GEANT4_USE_XM (DEFAULT : OFF, Unix Only)
+  sudo apt-get install libmotif-dev
+  
