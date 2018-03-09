@@ -1,3 +1,5 @@
+Ubantu 16.04
+
 GEANT4_USE_QT (DEFAULT : OFF)
   apt-file search Qt5CoreConfig.cmake
   sudo apt-get install qt5-default
