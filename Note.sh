@@ -9,6 +9,9 @@ GEANT4_USE_RAYTRACER_X11 (DEFAULT : OFF, Unix only)
 GEANT4_USE_XM (DEFAULT : OFF, Unix Only)
   sudo apt-get install libmotif-dev
 
+Bulid Applications
+cd $HOME/B1-build
+cmake -DGeant4_DIR=/home/you/geant4-install/lib/Geant4-G4VERSION $HOME/B1
 
 Problem:
 Q:The System Running In Low Graphics Mode
