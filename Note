@@ -8,4 +8,10 @@ GEANT4_USE_RAYTRACER_X11 (DEFAULT : OFF, Unix only)
   sudo apt-get install libx11-dev libxmu-dev
 GEANT4_USE_XM (DEFAULT : OFF, Unix Only)
   sudo apt-get install libmotif-dev
-  
+
+
+Problem:
+Q:The System Running In Low Graphics Mode
+A:http://simpledeveloper.com/system-running-in-low-graphics-mode/
+  https://askubuntu.com/questions/141606/how-to-fix-the-system-is-running-in-low-graphics-mode-error
+  https://askubuntu.com/questions/202168/which-display-manager-should-i-use-lightdm-or-gdm
