@@ -14,6 +14,8 @@ cd $HOME/B1-build
 cmake -DGeant4_DIR=/home/you/geant4-install/lib/Geant4-G4VERSION $HOME/B1
 make
 
+#install java JRE
+http://blog.csdn.net/nnuyi/article/details/78053188
 
 #Problem:
 Q:The System Running In Low Graphics Mode
